@@ -1,0 +1,36 @@
+NOTE: 
+
+*Change the file path before running the code.
+
+*Also change the backslash( \ ) with the forwardslash( / )
+Example
+	change this:
+		dataset = pd.read_csv(filepath ="C:\Users\Bhavesh\Desktop\bitcoininputdata.csv")
+
+	TO:
+		dataset = pd.read_csv(filepath ="C:/Users/Bhavesh/Desktop/bitcoininputdata.csv")
+
+
+*While Training we used the similar Dataset which gives 4 different output as HTML pages
+
+*The libraries and modules used in the code you provided:
+
+	1. numpy: A library for numerical operations in Python.
+	2. pandas: A data manipulation and analysis library.
+	3. matplotlib.pyplot: A library for creating plots and data visualization.
+	4. sklearn.metrics: Part of the scikit-learn library for machine learning metrics.
+	5. tensorflow.keras: The Keras deep learning library integrated with TensorFlow.
+	6. keras.models: The Keras library for defining neural network models.
+	7. keras.layers: Keras layers for constructing neural networks.
+	8. plotly.offline: Plotly for creating interactive and offline charts.
+	9. plotly.graph_objs: Plotly objects for creating chart components.
+	10. sklearn.preprocessing.MinMaxScaler: Part of the scikit-learn library for scaling data.
+	11. pandas.DataFrame: A data structure for handling tabular data.
+	12. LSTM, Dense, GRU, and Dropout layers from Keras for building and training neural networks.
+
+It's important to note that you'll need to install these libraries if you haven't already.
+COPY this for installing all libraries
+    |
+    V
+( pip install numpy pandas matplotlib tensorflow scikit-learn plotly )
+
